@@ -1,0 +1,340 @@
+@charset "utf-8";
+
+/* Footer */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+#fooeter_container{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+.fooeterinside_container{
+	width: 90%;
+	display: flow-root;
+	background: #272727;
+	border-radius: 25px 25px 0px 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 30px;
+}
+
+.title_contact_container {
+	float: left;
+    width: 100%;
+    height: 100px;
+	align-content: center;
+    font-family: "微軟正黑體";
+	font-size:65px;
+    font-weight: 900;
+    color:#ffffff;
+    font-weight: 900;
+    position: relative;
+	border-bottom: solid 1px #F2DAAE;
+}
+
+.contact_info_container {
+	float: left;
+    width: 50%;
+    height: auto;
+    font-family: "微軟正黑體";
+    font-size: 15px;
+    letter-spacing: 1px;
+    color:#ffffff;
+    line-height: 40px;
+    overflow: hidden;
+    position: relative;
+	padding-right: 10px;
+	padding-top: 130px;
+	
+}
+
+.logo_container{
+	float: left;
+	width: 100%;
+	height: 100px;
+} 
+.logo {
+	float: left;
+	width: 110px;
+	height: 100px;
+	z-index: 100;
+	display: block;
+    margin-top: 10px;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+	}
+
+
+.contact_map_container1 {
+		float: left;
+		width: 20%;
+		height: auto;
+		overflow: hidden;
+		position: relative;
+		margin-top: 50px;
+	}
+
+.contact_map_container {
+		float: left;
+		width: 20%;
+		height: auto;
+		overflow: hidden;
+		position: relative;
+		margin-top: 50px;
+	}
+.contact_map_title_container{
+	float: left;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-size: 30px;
+	line-height: 39px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.015em;
+	color: #F2DAAE;
+	padding-bottom: 10px;
+}
+
+.wording_btn{
+		float: left;
+		width: 500px;
+		text-align: center;
+		margin-right: 10px;
+		padding-bottom: 5px;
+	}
+a.wording_btn{
+		float: left;
+		width: auto;
+		font-family: "微軟正黑體";
+		align-content: center;
+		font-size:18px;
+		color:#ffffff;
+		line-height: 32px;
+		text-decoration:none;
+		}
+a.wording_btn:hover {
+		font-size:16px;
+		color: #F2DAAE;
+		transition: all 0.3s ease-out 0s;
+		text-decoration:none;
+	}
+a.wording_btn:active {
+		color:#2c2b2b;
+		opacity: 0.8;
+		filter: alpha(opacity=80);
+		text-decoration:none;
+	}
+
+.copyright_container {
+		float: left;
+		width: 100%;
+		height: 100px;
+		align-content: center;
+		font-family: "微軟正黑體";
+		font-size:20px;
+		line-height: 30px;
+		color:#ffffff;
+		position: relative;
+		border-top: solid 1px #F2DAAE;
+		margin-top:  30px;
+	}
+
+	
+/* ipad Air */
+@media only screen and (max-width: 1123px) {
+
+#fooeter_container{
+	float: left;
+	width: 100%;
+	height: auto;
+	}
+
+.fooeterinside_container{
+	width: 80%;
+	display: flow-root;
+	background: #272727;
+	border-radius: 25px 25px 0px 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 50px;
+	}
+	
+
+.title_contact_container {
+	float: left;
+	width: 100%;
+	height: 100px;
+	align-content: center;
+	font-family: "微軟正黑體";
+	font-size:35px;
+	font-weight: 900;
+	color:#ffffff;
+	font-weight: 900;
+	position: relative;
+	border-bottom: solid 1px #F2DAAE;
+}
+
+.contact_info_container {
+	float: left;
+	width: 100%;
+	height: auto;
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	letter-spacing: 1px;
+	color:#ffffff;
+	line-height: 40px;
+	overflow: hidden;
+	position: relative;
+	padding-right: 10px;
+	padding-top: 20px;
+	display: none;
+}
+	
+.logo_container{
+	float: left;
+	width: 100%;
+	height: 100px;
+	display: none;
+} 
+.contact_map_container1 {
+	float: left;
+		width: 50%;
+		height: auto;
+		overflow: hidden;
+		position: relative;
+		margin-top: 10px;
+}
+.contact_map_container {
+		float: left;
+		width: 50%;
+		height: auto;
+		overflow: hidden;
+		position: relative;
+		margin-top: 10px;
+}
+
+.copyright_container {
+		float: left;
+		width: 100%;
+		height: 100px;
+		align-content: center;
+		font-family: "微軟正黑體";
+		font-size:16px;
+		line-height: 30px;
+		color:#ffffff;
+		position: relative;
+		border-top: solid 1px #F2DAAE;
+		margin-top:  30px;
+}
+
+
+
+}
+
+/* phone */
+@media only screen and (max-width: 700px) {
+
+	#fooeter_container{
+		float: left;
+		width: 100%;
+		height: auto;
+		}
+	
+	.fooeterinside_container{
+		width: 80%;
+		display: flow-root;
+		background: #272727;
+		border-radius: 25px 25px 0px 0px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-right: 50px;
+		}
+		
+	
+	.title_contact_container {
+		float: left;
+		width: 100%;
+		height: 100px;
+		align-content: center;
+		font-family: "微軟正黑體";
+		font-size:35px;
+		font-weight: 900;
+		color:#ffffff;
+		font-weight: 900;
+		position: relative;
+		border-bottom: solid 1px #F2DAAE;
+	}
+	
+	.contact_info_container {
+		float: left;
+		width: 100%;
+		height: auto;
+		font-family: "微軟正黑體";
+		font-size: 15px;
+		letter-spacing: 1px;
+		color:#ffffff;
+		line-height: 40px;
+		overflow: hidden;
+		position: relative;
+		padding-right: 10px;
+		padding-top: 20px;
+		display: none;
+	}
+		
+	.logo_container{
+		float: left;
+		width: 100%;
+		height: 100px;
+		display: none;
+	} 
+	.contact_map_container1 {
+		float: left;
+		width: 50%;
+		height: auto;
+		overflow: hidden;
+		position: relative;
+		margin-top: 10px;
+		display: none;
+	}
+	.contact_map_container {
+			float: left;
+			width: 100%;
+			height: auto;
+			overflow: hidden;
+			position: relative;
+			margin-top: 10px;
+	}
+	
+	.copyright_container {
+			float: left;
+			width: 100%;
+			height: 100px;
+			align-content: center;
+			font-family: "微軟正黑體";
+			font-size:16px;
+			line-height: 30px;
+			color:#ffffff;
+			position: relative;
+			border-top: solid 1px #F2DAAE;
+			margin-top:  30px;
+	}
+	
+	
+	
+	}
