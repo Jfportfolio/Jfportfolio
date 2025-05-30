@@ -61,6 +61,12 @@ body{
     height: 20px;
 }
 
+.hideme
+{
+    opacity:0;
+}
+
+
 /* ******************************* */ 
 
 .main_container{
@@ -93,6 +99,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     margin-top: 65px;
+  
 }
 
 #aboutme_ph_container {

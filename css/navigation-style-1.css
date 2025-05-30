@@ -1,29 +1,5 @@
 /* Navigation Style 1 */
-#myBtn {
-    width: 70px;
-    height: 70px;
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    background-image: url(../images/top.png);
-	background-repeat: no-repeat;
-	-moz-background-size: 100%;
-	-webkit-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 50px;
-  }
-  
-  #myBtn:hover {
-    background-image: url(../images/topover.png);
-  }
+
 #navigation{
 	position:fixed;
 right:0;
